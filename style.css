@@ -6,14 +6,30 @@ h1, div, p {
 	text-align: center;
 }
 
+div.border {
+	border-style: solid;
+}
+
 footer {
 	bottom: 10px;
 	position: absolute;
 }
 
-a:link, a:visited {
+footer a:link, footer a:visited {
 	text-decoration: none;
 	color: blue;
+}
+
+body > a:link, body > a:visited {
+	padding: 20px 30px;
+	position:relative;
+	left:200px;
+	top:50px;
+	border-style: solid;
+	border-width: 0;
+	color: white;
+	background-color: brown;
+	text-decoration: none;
 }
 
 #contact {
