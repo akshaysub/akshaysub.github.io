@@ -11,8 +11,14 @@ div.border {
 }
 
 footer {
-	bottom: 10px;
+	position: relative;
+}
+
+footer ul {
 	position: absolute;
+	text-align: left;
+	bottom: 0;
+	right: 0;
 }
 
 footer a:link, footer a:visited {
@@ -32,9 +38,9 @@ body > a:link, body > a:visited {
 	text-decoration: none;
 }
 
-#contact {
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	text-align: left;
+footer div {
+	position: absolute;
+	text-align: right;
+	bottom: 0;
+	right: 0;
 }
