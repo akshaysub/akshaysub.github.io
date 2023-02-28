@@ -10,15 +10,13 @@ div.border {
 	border-style: solid;
 }
 
-footer {
-	position: relative;
-}
 
-footer ul {
-	position: absolute;
+
+footer {
+	position: fixed;
 	text-align: left;
 	bottom: 0;
-	right: 0;
+	left: 0;
 }
 
 footer a:link, footer a:visited {
@@ -27,6 +25,9 @@ footer a:link, footer a:visited {
 }
 
 body > a:link, body > a:visited {
+	display: inline-block;
+	width:180px;
+	text-align: center;
 	padding: 20px 30px;
 	position:relative;
 	left:200px;
@@ -39,8 +40,8 @@ body > a:link, body > a:visited {
 }
 
 footer div {
-	position: absolute;
-	text-align: right;
-	bottom: 0;
-	right: 0;
+	position: fixed;
+	text-align: left;
+	bottom: 10px;
+	right: 10px;
 }
